@@ -1,13 +1,14 @@
+import './ExpenseItem.css';
+
 function ExpenseItem() {
     return (
-      <div>
+      <div className="">
         <h1>This is something different</h1>
-        <ul>
-            <li>
-                This is something different
-            </li>
-
-        </ul>
+        <div className='expense-item__description'>
+          Insurance
+        </div>
+          <div className='expense-item__price'>254$</div>
+        
       </div>
     );
   }
