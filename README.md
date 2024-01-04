@@ -1,2 +1,2 @@
 # test-react-app
-Testing the basic functionality of React
+Input generator for SLURM schedule manager
